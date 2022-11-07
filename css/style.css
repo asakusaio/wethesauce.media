@@ -1,0 +1,75 @@
+body {
+    --bs-body-color: none;
+    --bs-body-bg: none;
+}
+
+.navbar {
+    padding: 1.5rem 0 0 1.5rem !important;
+}
+#navbar-brand-container {
+}
+
+nav {
+    height: 10vh;
+}
+
+#main-content {
+    height: 90vh;
+    font-family: 'Jost', sans-serif;
+}
+
+#thesauce-logo {
+    width: 170px;
+    margin-top: 8vw;
+    margin-left: 1vw;
+}
+
+#main-title {
+    color: #ffffff;
+    font-size: 42px !important;
+}
+
+#description {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#cta-button {
+    background-color: #9232cd;
+    border-color: #9232cd;
+    color:#ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#cta-button:hover {
+    background-color: #ffffff;
+    border-color: #9232cd;
+    color: #9232cd;
+}
+
+#sm-row {
+    margin-top: 50px;
+    --bs-gutter-x: 0rem;
+}
+
+#sm-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sm-icons {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sm-icons a i{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.sm-icons a:hover i {
+    color: #ffffff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
